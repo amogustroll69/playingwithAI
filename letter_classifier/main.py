@@ -45,6 +45,9 @@ for epoch in range(EPOCHS):
     print("Epoch", epoch + 1, "| Loss:", -epoch_loss if epoch_loss < 0 else epoch_loss)
 
 
+print("Weight:", neuron, "| Bias:", bias)
+
+
 while True:
     inp = input("Enter a character to predict (type exit to exit): ")
 
